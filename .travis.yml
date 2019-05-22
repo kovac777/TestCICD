@@ -23,6 +23,3 @@ android:
 branches:
   only:
     - master
-
-script:
-  - ./gradlew build check
