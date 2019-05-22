@@ -20,3 +20,7 @@ before_cache:
       - $HOME/.gradle/caches/
       - $HOME/.gradle/wrapper/
       - $HOME/.android/build-cache
+
+branches:
+  only:
+    - master
