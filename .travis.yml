@@ -25,4 +25,5 @@ branches:
   only:
     - master
 
-script: ./gradlew assemble
+script:
+  - ./gradlew build check
